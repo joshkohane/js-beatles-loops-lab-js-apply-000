@@ -24,9 +24,6 @@ function johnLennonFacts(lennonArray) {
   }
   
   function iLoveTheBeatles(number) {
-    if(number > 15) {
-      number = number % 15
-    }
     let beatlesLove = []
     do {
       beatlesLove.push('I love the Beatles!')
