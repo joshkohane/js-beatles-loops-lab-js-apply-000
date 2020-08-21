@@ -26,15 +26,19 @@ const facts = [
 //   }
   
   function iLoveTheBeatles(number) {
-    if(number > 15) {
-      number = number - 15
-    }
+    // if(number > 15) {
+    //   number = number - 15
+    // }
     let beatlesLove = []
     do {
       beatlesLove.push('I love the Beatles!')
     }
     while(beatlesLove.length < number) {
-      beatlesLove.push('I love the Beatles!')
+      if(number > 15) {
+        number = number - 15
+      } else {
+        beatlesLove.push('I love the Beatles!')
+      }
     };
     return beatlesLove
   }
