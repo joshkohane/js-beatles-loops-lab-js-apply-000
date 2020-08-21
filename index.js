@@ -31,9 +31,8 @@ function johnLennonFacts(lennonArray) {
     let beatlesLove = []
     do {
       beatlesLove.push('I love the Beatles!')
-    }
-    while(i <= number) {
       i++
-    };
+    }
+    while(i <= number);
     return beatlesLove
   }
