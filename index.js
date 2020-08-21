@@ -33,6 +33,8 @@ const facts = [
     do {
       beatlesLove.push('I love the Beatles!')
     }
-    while(beatlesLove.length < number);
+    while(beatlesLove.length < number) {
+      beatlesLove.push('I love the Beatles!')
+    };
     return beatlesLove
   }
