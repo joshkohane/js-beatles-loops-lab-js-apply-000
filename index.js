@@ -14,16 +14,16 @@ const facts = [
   "He hated the sound of his own voice"
   ];
 
-// function johnLennonFacts(lennonArray) {
-//     let newArray = []
-//     while(newArray.length < lennonArray.length) {
-//       newArray.push(lennonArray[0] + '!!!')
-//     }
-//     // for(let i = 0; i < lennonArray.length; i++) {
-//     //   newArray.push(lennonArray[i] + '!!!')
-//     // }
-//     return newArray
-//   }
+function johnLennonFacts(lennonArray) {
+    let newArray = []
+    while(newArray.length < lennonArray.length) {
+      newArray.push(lennonArray[0] + '!!!')
+    }
+    // for(let i = 0; i < lennonArray.length; i++) {
+    //   newArray.push(lennonArray[i] + '!!!')
+    // }
+    return newArray
+  }
   
   function iLoveTheBeatles(number) {
     // if(number > 15) {
