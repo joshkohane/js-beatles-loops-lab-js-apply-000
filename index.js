@@ -33,7 +33,7 @@ function johnLennonFacts(lennonArray) {
       beatlesLove.push('I love the Beatles!')
       i++
       if(number > 15) {
-        number = number - 15
+        number = number - 17
       }
     }
     while(i <= number);
