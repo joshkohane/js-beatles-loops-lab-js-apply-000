@@ -28,11 +28,6 @@ function johnLennonFacts(lennonArray) {
     do {
       beatlesLove.push('I love the Beatles!')
     }
-    while(if(number > 15) {
-      beatlesLove.length < (number - 15
-      } else {
-        beatlesLove.push('I love the Beatles!')
-      } beatlesLove.length <= number
-      );
+    while(beatlesLove.length < number);
     return beatlesLove
   }
