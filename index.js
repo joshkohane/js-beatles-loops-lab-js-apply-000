@@ -28,6 +28,6 @@ function johnLennonFacts(lennonArray) {
     do {
       beatlesLove.push('I love the Beatles!')
     }
-    while(beatlesLove.length < 15);
+    while(beatlesLove.length < number);
     return beatlesLove
   }
