@@ -20,9 +20,6 @@ function johnLennonFacts(lennonArray) {
       newArray.push(lennonArray[0] + '!!!')
       lennonArray.shift()
     }
-    // for(let i = 0; i < lennonArray.length; i++) {
-    //   newArray.push(lennonArray[i] + '!!!')
-    // }
     return newArray
   }
   
