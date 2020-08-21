@@ -24,13 +24,14 @@ function johnLennonFacts(lennonArray) {
   }
   
   function iLoveTheBeatles(number) {
-    if(number >= 15) {
-      number = number - 15
-    }
+    // if(number >= 15) {
+    //   number = number - 15
+    // }
+    let i = 0
     let beatlesLove = []
     do {
       beatlesLove.push('I love the Beatles!')
     }
-    while(beatlesLove.length <= number);
+    while(i <= number);
     return beatlesLove
   }
